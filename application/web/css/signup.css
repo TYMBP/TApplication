@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.account_form_ttl {
+	padding: 10px 0 0 10px; 
+}
+.account_form {
+	padding: 10px 0 0 10px;
+}
+.account_form input {
+	margin: 10px 0;
+}
+.error_list {
+	color: #f00;
+}
