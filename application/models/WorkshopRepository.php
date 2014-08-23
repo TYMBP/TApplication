@@ -2,13 +2,15 @@
 
 class WorkshopRepository extends DbRepository
 {
-
-	public function fetchAllArticleArchives()
+	// workshop page
+	public function fetchArticleArchives($limit)
 	{
+		$sql = "SELECT * FROM cms_article  ORDER BY created_at DESC LIMIT $limit";
 		
-		$sql = "SELECT * FROM cms_article";
+		return $this->execute($sql);		
 		
-		return $this->fechAll($sql);
 	}
+
+
 }
 

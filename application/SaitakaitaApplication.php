@@ -16,6 +16,8 @@ class SaitakaitaApplication extends Application
 				=> array('controller' => 'top', 'action' => 'index'),
 			'/workshop'
 				=> array('controller' => 'workshop', 'action' => 'index'),
+			'/workshop/pagingApi'
+				=> array('controller' => 'workshop', 'action' => 'paging'),
 			'/cms'
 				=> array('controller' => 'cms', 'action' => 'index'),
 			'/cms/edit'
